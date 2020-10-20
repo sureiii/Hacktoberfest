@@ -31,6 +31,10 @@ while True:
       feelings_list.append("scared")
       encouragement_list.append("that there's nothing to be afraid of, so relax")
       counter += 1
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouraging_list.append("you should try and calm down, resolve the problem that is causing you to be angry, then you get to enjoy life")
+      counter += 1
 
   if counter == 0:
     
